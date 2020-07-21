@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Node1");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Node2");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Node3");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Node0", new System.Windows.Forms.TreeNode[] {
-            treeNode5,
-            treeNode6,
-            treeNode7});
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node1");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node2");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Node3");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Node0", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DiskSearchForm));
             this.FilesTreeView = new System.Windows.Forms.TreeView();
             this.FileSearchSymbolsTextBox = new System.Windows.Forms.TextBox();
@@ -62,16 +62,16 @@
             // 
             this.FilesTreeView.Location = new System.Drawing.Point(12, 12);
             this.FilesTreeView.Name = "FilesTreeView";
-            treeNode5.Name = "Node1";
-            treeNode5.Text = "Node1";
-            treeNode6.Name = "Node2";
-            treeNode6.Text = "Node2";
-            treeNode7.Name = "Node3";
-            treeNode7.Text = "Node3";
-            treeNode8.Name = "Node0";
-            treeNode8.Text = "Node0";
+            treeNode1.Name = "Node1";
+            treeNode1.Text = "Node1";
+            treeNode2.Name = "Node2";
+            treeNode2.Text = "Node2";
+            treeNode3.Name = "Node3";
+            treeNode3.Text = "Node3";
+            treeNode4.Name = "Node0";
+            treeNode4.Text = "Node0";
             this.FilesTreeView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode8});
+            treeNode4});
             this.FilesTreeView.Size = new System.Drawing.Size(347, 371);
             this.FilesTreeView.TabIndex = 0;
             // 
@@ -201,6 +201,10 @@
             this.ChooseDirectoryButton.Text = "Choose directory";
             this.ChooseDirectoryButton.UseVisualStyleBackColor = true;
             this.ChooseDirectoryButton.Click += new System.EventHandler(this.ChooseDirectoryButton_Click);
+            // 
+            // AfterStartTimer
+            // 
+            this.AfterStartTimer.Interval = 10;
             // 
             // SearchContinueButton
             // 

@@ -141,8 +141,11 @@ namespace DiskSearch
             this.milliseconds_passed = 0;
             this.processed_files_count = 0;
             this.ProcessedFilesCountStatusLabel.Text = $"{processed_files_count,3} files processed";
+            this.TimePassedAfterStartStatusLabel.Text = $"{(0.0f),14:F1}";
             this.AfterStartTimer.Start();
             
+
+
             if (this.FileNamePatternTextBox.Text != "")
                 this.search_pattern = this.FileNamePatternTextBox.Text;
             else
