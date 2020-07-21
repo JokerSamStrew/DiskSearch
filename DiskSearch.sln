@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiskSearch", "DiskSearch\DiskSearch.csproj", "{21EA79C2-DA42-42A3-AECB-4223C7C65813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21EA79C2-DA42-42A3-AECB-4223C7C65813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EA79C2-DA42-42A3-AECB-4223C7C65813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EA79C2-DA42-42A3-AECB-4223C7C65813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EA79C2-DA42-42A3-AECB-4223C7C65813}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10F2DCC4-2EA0-4759-A363-8C4E21D2BAB3}
+	EndGlobalSection
+EndGlobal
