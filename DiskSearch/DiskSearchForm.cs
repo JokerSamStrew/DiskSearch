@@ -34,7 +34,7 @@ namespace DiskSearch
         private void AfterStartTimer_Tick(object sender, EventArgs e)
         {
             this.milliseconds_passed += this.AfterStartTimer.Interval;
-            this.TimePassedAfterStartStatusLabel.Text = $"{((float)this.milliseconds_passed / 1000.0f),14:F1}s";
+            this.TimePassedAfterStartStatusLabel.Text = $"{((float)this.milliseconds_passed / 1000.0f),14:F2}s";
         }
 
         private bool isFileContainSymbols(string path, string symbols, CancellationTokenSource ts)
@@ -141,7 +141,7 @@ namespace DiskSearch
             this.milliseconds_passed = 0;
             this.processed_files_count = 0;
             this.ProcessedFilesCountStatusLabel.Text = $"{processed_files_count,3} files processed";
-            this.TimePassedAfterStartStatusLabel.Text = $"{(0.0f),14:F1}";
+            this.TimePassedAfterStartStatusLabel.Text = $"{(0.0f),14:F2}";
             this.AfterStartTimer.Start();
             
 
